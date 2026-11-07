@@ -1,0 +1,12 @@
+[project]
+name = "university-management-system"
+version = "1.0.0"
+description = "Student, course and faculty management system with role-based access and reporting"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "WasiTurk" }]
+keywords = ["sqlite", "database", "university", "rbac", "management-system"]
+
+[project.scripts]
+ums = "ums.cli:main"
